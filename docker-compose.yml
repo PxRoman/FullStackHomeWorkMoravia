@@ -2,7 +2,7 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./TranslationManagement.Frontend/translation-management/
+      context: ./TranslationManagement.Frontend/
       dockerfile: 'Dockerfile'
     ports:
       - '3000:80'
