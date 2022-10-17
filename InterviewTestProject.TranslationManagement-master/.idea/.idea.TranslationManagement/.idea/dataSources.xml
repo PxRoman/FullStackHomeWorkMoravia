@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="TranslationAppDatabase" uuid="535bd74f-0d31-4e21-b883-ee0f0acb1bd4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Roman\Desktop\Fullstack Homework\InterviewTestProject.TranslationManagement-master\TranslationManagement.Api\TranslationAppDatabase.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TranslationAppDatabase [2]" uuid="d9a1b21a-98bd-45a3-a24c-7624d038335b">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Roman\Desktop\Fullstack Homework\InterviewTestProject.TranslationManagement-master\Translations\TranslationManagement.Api\TranslationAppDatabase.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

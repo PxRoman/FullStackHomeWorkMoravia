@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./TranslationManagement.Frontend/translation-management/
+      dockerfile: 'Dockerfile'
+    ports:
+      - '3000:80'
+  backend:
+    build:
+      context: ./InterviewTestProject.TranslationManagement-master/
+      dockerfile: 'Translations/TranslationManagement.Api/Dockerfile'
+    ports:
+      - '5000:80'

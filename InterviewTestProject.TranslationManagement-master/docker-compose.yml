@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  my-app-backend:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'

@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8547FBF7-7179-421B-80BD-2E293D0807A6}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		TranslationManagement.Api\Dockerfile = TranslationManagement.Api\Dockerfile
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External.ThirdParty.Services", "External.ThirdParty.Services\External.ThirdParty.Services.csproj", "{173F3433-4139-404D-A843-BAF43F6164FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleData", "SampleData", "{B01CF39A-A9B6-468F-9BC6-06D418302340}"
+	ProjectSection(SolutionItems) = preProject
+		job.txt = job.txt
+		job.xml = job.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Translations", "Translations", "{D6E109AC-4159-4D0B-BF21-602931D50630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationManagement.Api", "Translations\TranslationManagement.Api\TranslationManagement.Api.csproj", "{C7E2392C-9321-42AB-936D-C9C071752E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationManagement.Domain", "Translations\TranslationManagement.Domain\TranslationManagement.Domain.csproj", "{645A4652-0263-43F4-BD7B-3FC61DBF9EC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationManagement.Infrastructure", "Translations\TranslationManagement.Infrastructure\TranslationManagement.Infrastructure.csproj", "{419E6425-C723-4BA6-9F62-801FA86B521A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationManagement.UnitTest", "Translations\TranslationManagement.UnitTest\TranslationManagement.UnitTest.csproj", "{D94EE2C8-306F-4FC1-8513-FC07B4DEE931}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{173F3433-4139-404D-A843-BAF43F6164FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173F3433-4139-404D-A843-BAF43F6164FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173F3433-4139-404D-A843-BAF43F6164FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173F3433-4139-404D-A843-BAF43F6164FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E2392C-9321-42AB-936D-C9C071752E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E2392C-9321-42AB-936D-C9C071752E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E2392C-9321-42AB-936D-C9C071752E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E2392C-9321-42AB-936D-C9C071752E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645A4652-0263-43F4-BD7B-3FC61DBF9EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645A4652-0263-43F4-BD7B-3FC61DBF9EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645A4652-0263-43F4-BD7B-3FC61DBF9EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645A4652-0263-43F4-BD7B-3FC61DBF9EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419E6425-C723-4BA6-9F62-801FA86B521A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419E6425-C723-4BA6-9F62-801FA86B521A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419E6425-C723-4BA6-9F62-801FA86B521A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419E6425-C723-4BA6-9F62-801FA86B521A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94EE2C8-306F-4FC1-8513-FC07B4DEE931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94EE2C8-306F-4FC1-8513-FC07B4DEE931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94EE2C8-306F-4FC1-8513-FC07B4DEE931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94EE2C8-306F-4FC1-8513-FC07B4DEE931}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821E39E6-0BB8-498C-9510-D913968AA6FF}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7E2392C-9321-42AB-936D-C9C071752E6E} = {D6E109AC-4159-4D0B-BF21-602931D50630}
+		{645A4652-0263-43F4-BD7B-3FC61DBF9EC9} = {D6E109AC-4159-4D0B-BF21-602931D50630}
+		{419E6425-C723-4BA6-9F62-801FA86B521A} = {D6E109AC-4159-4D0B-BF21-602931D50630}
+		{D94EE2C8-306F-4FC1-8513-FC07B4DEE931} = {D6E109AC-4159-4D0B-BF21-602931D50630}
+	EndGlobalSection
+EndGlobal
